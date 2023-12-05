@@ -1,0 +1,69 @@
+.container-fluid{
+    background-color: #33b5e0 ;
+}
+
+.nav-item{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.profile-pic{
+    border-radius: 15%;
+
+}
+
+.Biodata{
+    padding-left: 4%;
+}
+
+.intro{
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-indent: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.row{
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+body{
+    background-color: #94c3ce ;
+}
+
+.logo-pic{
+    background-color: white;
+}
+
+.Profile{
+    background-color: white;
+}
+
+.job-req{
+    text-align: left;
+
+}
+
+
+/* Job-List is the div containing all the cards, making it a div class makes it easier to set the color and position */
+.Job-List{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+/* setting the position of the cards */
+.card1
+.card2
+.card3{
+    width: 18rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
